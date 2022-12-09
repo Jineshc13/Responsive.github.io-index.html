@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script> 
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
+    <title>Header</title>
+</head>
+<body>
+    <nav>
+        <label class="logo">HIREHUB</label>
+        <ul>
+            <li><a class="active" href="http://">HOME</a></li>
+            <li><a href="http://">ABOUT</a></li>
+            <li><a href="http://">SERVICE</a></li>
+            <li><a href="http://">CONTACT</a></li>
+            <li><a href="http://">FEEDBACK</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fa fa-bars"></i>
+        </label>
+    </nav>
+    <section></section>
+    
+</body>
+</html>
